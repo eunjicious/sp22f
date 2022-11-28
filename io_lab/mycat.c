@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 	} else if(argc == 2) {
 		// output to stdout file  
 
-	} else if(argc == 4 && !strcmp(argv[2], ">")) {
+	} else if(argc == 4 && !strcmp(argv[2], "into")) {
 		// output to redirection file 
 
 	} else {
